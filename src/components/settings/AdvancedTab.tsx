@@ -27,6 +27,7 @@ const AdvancedTab = ({permission}) => {
 
 
  
+    const navigate = useNavigate();
     const handleReset = async () => {
         const user = await getUser()
         if (confirmation !== "Reset") {
@@ -39,7 +40,6 @@ const AdvancedTab = ({permission}) => {
             return;
         }
 
-        const navigate = useNavigate();
         await resetPlatform(email,navigate)
         handleCancel(); // Close the modal on success
         
