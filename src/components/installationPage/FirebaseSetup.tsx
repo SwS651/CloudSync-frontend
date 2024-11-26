@@ -27,7 +27,7 @@ export const FirebaseSetup = ({next,currentStep}) => {
   
         try {
             
-            const requiredKeys = ["apiKey", "authDomain", "projectId", "storageBucket", "messagingSenderId", "appId", "measurementId"];
+            const requiredKeys = ["apiKey", "authDomain", "projectId", "storageBucket", "messagingSenderId", "appId"];
             const isValid =requiredKeys.every( (key) => json.hasOwnProperty(key) && typeof json[key] === "string" && json[key].trim() !== "");
             if (!isValid) {
                 message.error("Invalid Firebase Config. Please ensure all required fields are present.");

@@ -137,7 +137,7 @@ function App() {
                                                         // backgroundColor: "#7dbcea",
                                                         }}
                                                     >
-                                                        @2025 CloudSync Developed by XXX
+                                                        @2025 CloudSync Developed by Liang Soon Wei
                                                     </Layout.Footer>
                                                 )}
                                             >

@@ -110,11 +110,11 @@ export const InstallationPage = () => {
                             Previous
                         </Button>
                     )}
-                    {currentStep < steps.length - 1  && (
+                    {/* {currentStep < steps.length - 1  && (
                         <Button type="primary" onClick={() => next()}>
                             Next
                         </Button>
-                    )}
+                    )} */}
                     {currentStep < steps.length - 1 && currentStep!==0 && (
                         <Button type="primary" onClick={() => next()}>
                             Next
