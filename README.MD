@@ -57,7 +57,7 @@ This project provides a backend and frontend implementation for connecting and m
 
 ## Project Setup
 
-[See](documentation/CloudSync Platform Project Setup.pdf)
+[See it here](documentation/CloudSync%20Platform%20Project%20Setup.pdf)
 
 ## Screenshot
 ![Installation Page](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/Images/Picture1.png) <br/>
