@@ -60,21 +60,21 @@ This project provides a backend and frontend implementation for connecting and m
 [See](documentation/CloudSync Platform Project Setup.pdf)
 
 ## Screenshot
-![Installation Page](documentation/images/Picture1.png) <br/>
-![Installation Page1](documentation/images/Picture2.png)
-![Installation Page2](documentation/images/Picture3.png)
+![Installation Page](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/Images/Picture1.png) <br/>
+![Installation Page1](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture2.png)
+![Installation Page2](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture3.png)
 
 ### Dashboard
-![Dashboard Page3](documentation/images/Picture4.png)
-![Dashboard Page4](documentation/images/Picture5.png)
-![Dashboard Page5](documentation/images/Picture6.png)
-![Dashboard Page6](documentation/images/Picture7.png)
-![Dashboard Page7](documentation/images/Picture8.png)
+![Dashboard Page3](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture4.png)
+![Dashboard Page4](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture5.png)
+![Dashboard Page5](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture6.png)
+![Dashboard Page6](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture7.png)
+![Dashboard Page7](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture8.png)
 
 ### Accounts Page
-![Accounts Page1](documentation/images/Picture10.png)
-![Accounts Page2](documentation/images/Picture11.png)
+![Accounts Page1](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture10.png)
+![Accounts Page2](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture11.png)
 
 ## Settings Page
-![Settings Page2](documentation/images/Picture12.png)
-![Settings Page2](documentation/images/Picture13.png)
+![Settings Page2](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture12.png)
+![Settings Page2](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture13.png)
