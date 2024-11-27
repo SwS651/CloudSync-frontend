@@ -61,20 +61,20 @@ This project provides a backend and frontend implementation for connecting and m
 
 ## Screenshot
 ![Installation Page](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/Images/Picture1.png) <br/>
-![Installation Page1](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture2.png)
-![Installation Page2](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture3.png)
+![Installation Page1](documentation/Images/Picture2.png)
+![Installation Page2](documentation/Images/Picture3.png)
 
 ### Dashboard
-![Dashboard Page3](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture4.png)
-![Dashboard Page4](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture5.png)
-![Dashboard Page5](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture6.png)
-![Dashboard Page6](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture7.png)
-![Dashboard Page7](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture8.png)
+![Dashboard Page3](documentation/Images/Picture4.png)
+![Dashboard Page4](documentation/Images/Picture5.png)
+![Dashboard Page5](documentation/Images/Picture6.png)
+![Dashboard Page6](documentation/Images/Picture7.png)
+![Dashboard Page7](documentation/Images/Picture8.png)
 
 ### Accounts Page
-![Accounts Page1](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture10.png)
-![Accounts Page2](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture11.png)
+![Accounts Page1](documentation/Images/Picture10.png)
+![Accounts Page2](documentation/Images/Picture11.png)
 
 ## Settings Page
-![Settings Page2](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture12.png)
-![Settings Page2](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/images/Picture13.png)
+![Settings Page2](documentation/Images/Picture12.png)
+![Settings Page2](documentation/Images/Picture13.png)
