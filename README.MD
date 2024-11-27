@@ -1,6 +1,5 @@
 # Cloud Storage Management Platform
-
-This project provides a backend and frontend implementation for connecting and managing cloud storage accounts like Google Drive and Dropbox using OAuth 2.0. Users can authorize their accounts, fetch files and drives, and perform secure integrations with robust token management.
+ This project is a web-based cloud storage management platform to provide a single dashboard for integrated cloud storage application programming interfaces (APIs) and simplify cloud storage management. It involves a backend and frontend implementation for connecting and managing cloud storage accounts like Google Drive and Dropbox using OAuth 2.0. Users can authorize their accounts, fetch files and drives, and perform secure token management.
 
 --
 
@@ -60,7 +59,7 @@ This project provides a backend and frontend implementation for connecting and m
 [See it here](documentation/CloudSync%20Platform%20Project%20Setup.pdf)
 
 ## Screenshot
-![Installation Page](https://github.com/SwS651/CloudSync-frontend/blob/main/documentation/Images/Picture1.png) <br/>
+![Installation Page](documentation/Images/Picture1.png) <br/>
 ![Installation Page1](documentation/Images/Picture2.png)
 ![Installation Page2](documentation/Images/Picture3.png)
 
