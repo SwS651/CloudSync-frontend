@@ -30,20 +30,17 @@ export const CartList = ({cartItems,setCartItems,uploadedFile,setUploadedFile}) 
             message.warning('Please upload  a file and select at least one folder.');
             return;
         }
-        //...
-     
-    
         try {
             const uploadPromises = cartItems.map((item:any) => {
                 const formData = new FormData();
                 formData.append('file', uploadedFile);
                 formData.append('aid', item.aid);
-                console.log(item.folder.name)
-                console.log(item.folder.path)
                 formData.append('folderId', item.folder.id); // For Google Drive
                 formData.append('path', encodeURIComponent(item.folder.path)); // For Dropbox
-                console.log(item.folder)
-                const endpoint = item.folder.source === 'google' ? `${url}/cloud/upload/google` : `${url}/cloud/upload/dropbox`;
+                
+                const endpoint = item.folder.source === 'google' ? 
+                    `${url}/cloud/upload/google` : `${url}/cloud/upload/dropbox`;
+                
                 return axios.post(endpoint, formData);
             })
          
@@ -57,17 +54,6 @@ export const CartList = ({cartItems,setCartItems,uploadedFile,setUploadedFile}) 
                 }
             })
             setUploadedFile(null)
-            // const response = await axios.post(`${url}/cloud/uplaod/google`, formData, {
-            //     headers: { 'Content-Type': 'multipart/form-data' },
-            // });
-    
-            // if (response.data.success) {
-            //     message.success('Upload processed successfully!');
-            //     setCartItems([]); // Clear cart
-            //     setUploadedFile(null); // Clear uploaded file
-            // } else {
-            //     message.error('Failed to process upload.');
-            // }
         } catch (error) {
             console.error('Upload error:', error);
             message.error('Error occurred during upload.');

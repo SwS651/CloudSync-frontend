@@ -36,7 +36,7 @@ export const FileMetaDrawer = ({visible ,closeDrawer, selectedFile }) => {
 
                                   {selectedFile.type.includes('folder')?
                                   <FolderOpenFilled style={{fontSize:"3.5em",textAlign:"center"}}/>
-                                  :<FileOutlined/>}
+                                  :<FileOutlined style={{fontSize:"3.5em",textAlign:"center"}}/>}
                               </Flex>
                           </Col>
                         
@@ -47,11 +47,11 @@ export const FileMetaDrawer = ({visible ,closeDrawer, selectedFile }) => {
                       </Row>
                       <Row gutter={12} style={{marginBottom:"24px"}}>
                           <Col className="gutter-row"><b>Created Time:</b></Col>
-                          <Col className="gutter-row">{selectedFile.createdTime}</Col>
+                          <Col className="gutter-row">{new Date(selectedFile.createdTime).toLocaleString()}</Col>
                       </Row>
                       <Row gutter={12} style={{marginBottom:"24px"}}>
-                          <Col className="gutter-row"><b>Created Time:</b></Col>
-                          <Col className="gutter-row">{selectedFile.modifiedTime}</Col>
+                          <Col className="gutter-row"><b>Modified Time:</b></Col>
+                          <Col className="gutter-row">{new Date(selectedFile.modifiedTime).toLocaleString()}</Col>
                       </Row>
                       <Row gutter={6} style={{marginBottom:"24px"}}>
                           <Col  className="gutter-row"><b>Type:</b></Col>

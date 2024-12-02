@@ -103,6 +103,7 @@ export const AccountPage = () => {
     const handleTokensRefresh = async (provider) => {
         setLoading(true);
         await refreshTokens(accounts,provider,handlefetchAccounts);
+        handlefetchAccounts()
         setLoading(false);
     };
 
